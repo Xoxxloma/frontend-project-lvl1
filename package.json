@@ -1,0 +1,40 @@
+{
+  "name": "igotapoison",
+  "version": "1.0.0",
+  "description": "first frontend hexlet project",
+  "main": "index.js",
+  "bin": {
+    "brain-games": "dist/bin/brain-games.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "NODE_ENV=production babel src --out-dir dist --source-maps inline",
+    "prepublishOnly": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Xoxxloma/frontend-project-lvl1.git"
+  },
+  "keywords": [
+    "hexlet",
+    "frontend"
+  ],
+  "author": "xoxxloma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Xoxxloma/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/Xoxxloma/frontend-project-lvl1#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.7.5",
+    "@babel/core": "^7.7.5",
+    "@babel/node": "^7.7.4",
+    "@babel/preset-env": "^7.7.6"
+  },
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  }
+}
