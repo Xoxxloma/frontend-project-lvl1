@@ -19,7 +19,7 @@ export default (description, getQuestionAnswer) => {
       console.log(`Let's try again, ${userName}!`);
       return;
     }
-    console.log(); 
+    console.log();
     console.log('Correct!');
   }
   console.log(`Congratulations, ${userName}!`);
