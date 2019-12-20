@@ -4,7 +4,8 @@
   "description": "first frontend hexlet project",
   "main": "index.js",
   "bin": {
-    "brain-games": "dist/bin/brain-games.js"
+    "brain-games": "dist/bin/brain-games.js",
+    "brain-even": "dist/bin/brain-even.js"
   },
   "files": [
     "dist"
@@ -40,6 +41,8 @@
     "eslint-plugin-import": "^2.19.1"
   },
   "dependencies": {
+    "@hexlet/pairs": "^1.0.10",
+    "@hexlet/pairs-data": "^1.0.9",
     "readline-sync": "^1.4.10"
   }
 }
