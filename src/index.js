@@ -8,7 +8,7 @@ export default (description, getQuestionAnswer) => {
   const userName = readlineSync.question('May I have your name? ');
   console.log(`Hello ${userName}`);
   console.log();
-  for (let i = 0; i <= correctAnswersValue; i += 1) {
+  for (let i = 0; i < correctAnswersValue; i += 1) {
     const questionAnswer = getQuestionAnswer();
     const question = car(questionAnswer);
     const correctAnswer = cdr(questionAnswer);

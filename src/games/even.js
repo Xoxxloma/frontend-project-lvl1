@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 import { cons } from '@hexlet/pairs';
-import { getRandom } from '../helpers';
+import getRandom from '../helpers';
 import gameEngine from '..';
 
 const description = 'Answer "yes" if the number is even, otherwise answer "no".';
